@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_et_white_solid"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/my_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <ToggleButton
+        android:id="@+id/my_toggle"
+        android:layout_width="20.8dp"
+        android:layout_height="16dp"
+        android:layout_gravity="end|center_vertical"
+        android:background="@drawable/selector_toggle"
+        android:checked="false"
+        android:textOff="@null"
+        android:textOn="@null" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4B6BFF</color>
+    <color name="colorPrimaryDark">#FF3C57CF</color>
+    <color name="colorAccent">#4B6BFF</color>
+    <color name="btn_disable">#C8CEDA</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="gray_dark_bg">#FFF5F5F5</color>
+    <color name="gray_bg">#FFF1F1F1</color>
+    <color name="white_bg">#FFFDFDFE</color>
+    <color name="list_selected_bg">#D5D4D9</color>
+    <color name="red_point_bg">#FFF33530</color>
+    <color name="pink_bg">#F8CECE</color>
+    <!--text color black base-->
+    <color name="black">#000000</color>
+    <color name="text_black">#DE000000</color>
+    <color name="text_secondary_black">#8a000000</color>
+    <color name="black_70_alpha">#b3000000</color>
+
+    <color name="text_disable_black">#42000000</color>
+    <color name="divider_black_base">#FFDCDCDC</color>
+    <!--text color white base-->
+    <color name="white">#ffffff</color>
+    <color name="text_secondary_white">#b3ffffff</color>
+    <color name="text_disable_white">#4dffffff</color>
+    <color name="divider_white_base">#1fffffff</color>
+    <color name="light_text_in_dark_bg">#FFEFEBFE</color>
+    <color name="light_text_in_dark_bg_on">#FFBDB9CF</color>
+    <color name="text_in_keyboard">#FF797781</color>
+    <color name="text_attachment">#666666</color>
+
+    <color name="dialog_text_black">#FF726F7C</color>
+    <color name="dialog_text_black_on">#FF989898</color>
+
+    <color name="list_common_light_bg">#FFFDFDFE</color>
+    <color name="list_common_light_bg_on">#FFD5D4D9</color>
+    <color name="menu_click_bg">#FF4D4762</color>
+    <color name="menu_click_bg_on">#FF706B80</color>
+    <color name="menu_text_color">#F0ECFF</color>
+
+    <color name="tv_border">#C6CDD6</color>
+    <color name="blue_text">#4B6BFF</color>
+
+</resources>

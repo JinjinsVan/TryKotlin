@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/appbar_height"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/rl_title_back"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/iv_title_back"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/icon_back"
+
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_title_center"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/appbar_height"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:text="标题"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_app_bar"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/appbar_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_bigger_than_secondary"
+        />
+
+
+</RelativeLayout>

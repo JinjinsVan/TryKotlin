@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Try Kotlin</string>
+    <string name="prompt_username_cannot_be_null">手机号不能为空</string>
+    <string name="prompt_phone_num_invalid">手机号不合法</string>
+    <string name="prompt_password_cannot_be_null">密码不能为空</string>
+    <string name="prompt_code_cannot_be_null">验证码不能为空</string>
+
+
+    <string name="title_login">登录</string>
+    <string name="title_home">首页</string>
+    <string name="title_forgot_psw">找回密码</string>
+    <string name="title_new_psw">输入新密码</string>
+    <string name="title_input_by_hand">手动输入</string>
+    <string name="title_code">条码扫描</string>
+    <string name="change_password">修改密码</string>
+    <string name="title_content">内容</string>
+    <string name="title_validation_item">质检项</string>
+    <string name="title_complete">绑定完成</string>
+    <string name="title_validation_complete">质检完成</string>
+
+    <string name="input_old_password">输入原密码</string>
+    <string name="input_new_password">输入新密码</string>
+    <string name="repeat_new_password">重复新密码</string>
+    <string name="send_sms_code">获取验证码</string>
+    <string name="prompt_code_error">验证码错误</string>
+    <string name="prompt_psw_not_same">两次密码不一致</string>
+
+    <string name="torch_on">轻触点亮</string>
+    <string name="torch_off">轻触关闭</string>
+
+    <string name="input_type_code">条码号</string>
+    <string name="input_type_mac">mac地址</string>
+    <string name="hint_type_code">条码</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

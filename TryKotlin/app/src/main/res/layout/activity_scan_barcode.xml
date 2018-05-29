@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/qr_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:zxing_scanner_layout="@layout/custom_barcode_scanner"/>
+
+    <FrameLayout
+        android:layout_width="254dp"
+        android:layout_height="254dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="252dp"
+            android:layout_height="252dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_white_border_trans_solid" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:background="@mipmap/icon_corner_1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:background="@mipmap/icon_corner_2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:background="@mipmap/icon_corner_3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:background="@mipmap/icon_corner_4" />
+
+        <LinearLayout
+            android:id="@+id/ll_switch_flashlight"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/icon_light"
+                />
+            <TextView
+                android:id="@+id/tv_torch_state"
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:textSize="@dimen/text_content"
+                android:text="轻触点亮"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appbar_height"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/rl_scan_back"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:clickable="true">
+
+            <ImageView
+                android:id="@+id/iv_title_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/icon_back"
+
+                />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_scan_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/appbar_height"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:text="条码扫描"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_app_bar"
+            />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
