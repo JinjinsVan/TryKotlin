@@ -18,9 +18,8 @@ import java.lang.reflect.Type
  */
 interface ApiService {
 
-
     companion object {
-        //set this True,user local json data
+        //set this True,request for local json data(/assets/)
         val isDummyData: Boolean = true
         private val BASE_URL: String = "your release server url"
 
@@ -42,12 +41,8 @@ interface ApiService {
                 GsonBuilder().registerTypeAdapterFactory(ApiTypeAdapterFactory("data")).create()
                         .fromJson<T>(content, type)
             }
-
         }
-
-
     }
-
 
     //发送短信验证码
     @GET("/Home/Index/sendVerCode")
